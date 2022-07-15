@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <Form action="" method="">
+        <p>
+            <input type="text" name="Nombre" placeholder="Nombre"/>
+        </p>
+        <p>
+            <input type="text" name="apellido" placeholder="Apellido" />
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass"/>
+        </p>
+    <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" id="Hombre">
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" id="Mujer">
+                <label>Mujer</label>
+            </li>
+        </ul>
+        <label>Condicion fiscal</label>
+           <ul>
+            <li>
+                <input type="checkbox" name="Condición fiscal[]" value="Consumidor final" id="Consumidor final" />
+                <label>Consumidor final</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Condicion fiscal[]" value="Monotributista" id="Monotributista" />
+                <label>Monotributista</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Condicion fiscal[]" value="Exento" id="Exento" />
+                <label>Exento</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Condicion fiscal[]" value="Responsable inscripto" id="Responsable inscripto" />
+                <label>Resposable inscripto</label>
+            </li>
+           </ul>
+           <p>
+            <label for="titulo">Titulo</label>
+            <select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+           </p>
+           <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+           </p>
+           <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+           </p>
+
+    </Form>
+</body>
+</html>
